@@ -10,6 +10,9 @@ public class PlayerController : MonoBehaviour
     public bool discharge;
     public float jumpForce;
 
+    //public Transform player;
+    //public Vector3 offset;
+
     private void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -46,6 +49,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z); // Camera follows the player with specified offset position
         if (Input.GetKey(KeyCode.Space))
         {
             charger += UnityEngine.Time.deltaTime;
@@ -56,5 +60,7 @@ public class PlayerController : MonoBehaviour
         {
             discharge = true;
         }
+
+
     }
 }

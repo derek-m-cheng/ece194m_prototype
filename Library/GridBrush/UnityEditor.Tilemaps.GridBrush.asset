@@ -31,7 +31,7 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    m_Color: {r: 0.77653974, g: 0.39350948, b: 0.5152694, a: 1}
+    m_Color: {r: 0.80518085, g: 0.33677176, b: 0.3821052, a: 1}
   m_Size: {x: 1, y: 1, z: 1}
   m_Pivot: {x: 0, y: 0, z: 0}
   m_CanChangeZPosition: 0
